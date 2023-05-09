@@ -1,0 +1,15 @@
+"Number"?->N
+N=2=>Goto 2
+"             Factors:"
+2->D
+Do
+If N/D=Int (N/D)
+Then D◢
+N/D->N
+D-1->D
+IfEnd
+D+1->D
+LpWhile D<=sqrt(N)
+N◢
+Lbl 2
+"DONE"
